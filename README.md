@@ -282,11 +282,61 @@ sudo apt update && apt upgrade
 
 pkgs.org
                                                                 
-rpm.pkgs.org
+rpm.pbone.net
                      
 # Instalação de pacotes dpkg:
 
 dpkg -i 'nome do pacote.deb'
+
+# Obter informação do pacote instalado dpkg:
+                                                                
+dpkg -I 'nome do pacote.deb'
+
+# Para remover pacote instalado dpkg:
+                                                                
+dpkg -r 'nome do pacote.deb'
+
+# Introdução ao Fedora
+                                                                
+https://getfedora.org                                                                
+                                                                
+Fedora versão Workstation ou Server                                                                
+                                                                
+# Instalando pacotes                                                                
+
+rpm -ivh 'nome do pacote.rpm'
+                                                                
+Quando houver falta de dependencia do pacote:
+                                                                
+rpm -ivh --nodeps 'nome do pacote.rpm'                                                                
+                                 
+# Update de pacotes rpm
+
+rpm -U 'nome do pacote.rpm'                                                                
+                                                                
+# Removendo de pacotes rpm
+
+rpm -e 'nome do pacote.rpm'                                                                
+
+# Instalação de pacote yum
+                                                                
+sudo yum install postgresql                                                                 
+
+# Update de pacotes yum
+                                                                
+sudo yum update postgresql                                                                    
+                                                                
+# Remove de pacotes yum
+                                                                
+sudo yum remove postgresql                                                                    
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                
+                                                                
+                                                                
 
                                                                 
                                                                 
