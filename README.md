@@ -476,8 +476,14 @@ $ chmod 755 teste.txt
 $ ls -lh teste.txt
                                                                 
 -rwxr-xr-x 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
-
                                                                 
+Aplicando somente a permissão de leitura, escrita e execução e para todos:
+
+$ chmod 777 teste.txt 
+                                                                
+$ ls -lh teste.txt
+                                                                
+-rwxrwxrwx 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
 
 
 
