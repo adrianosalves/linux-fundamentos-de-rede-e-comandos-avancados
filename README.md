@@ -374,7 +374,7 @@ gpasswd -d usuário grupo - Remover um usuario de um grupo
 
 groupdel grupo - Remover um grupo
 
-# Controle de Permissões
+# Gerenciar o Controle de Permissões e o que é o modo Octal:
 
 Permissões em arquivos e diretorios servem para restringir acesso como: leitura, escrita e execução onde;
 
@@ -450,6 +450,32 @@ $ ls -lh teste.txt
 
 ---x------ 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
 
+# Comando chmod
+
+Aplicando somente a permissão de escrita:
+
+$ chmod 200 teste.txt
+
+$ ls -lh teste.txt
+
+--w------- 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
+
+Aplicando somente a permissão de leitura, escrita e execução:
+
+$ chmod 700 teste.txt 
+
+$ ls -lh teste.txt
+
+-rwx------ 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
+
+
+Aplicando somente a permissão de leitura, escrita e execução e para os outros somente leitura e execução:
+
+$ chmod 755 teste.txt 
+
+$ ls -lh teste.txt
+                                                                
+-rwxr-xr-x 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
 
                                                                 
 
