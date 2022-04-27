@@ -189,6 +189,58 @@ tracertroute - Exibe informações obre a rota da sua rede até o host de destin
 ping - Teste um hosts se esta ativo
                                                                 
 finger - Exibe informações detalhadas sobre um determinado usuario.
+
+# Linux comandos diversos
+                                                                
+history - Exibe o historico dos comandos digitados
+                                                                
+history -c - Paga todo o historico                                                                
+
+nl - Exibi o conteudo do arquivo e exibe quantidade das linhas
+                                                                
+wc -l - Contas o numero de linhas incluido o espaço
+                                                                
+wc -w - Conta o numero de palavaras.
+                                                                
+alias hh=history - Cria um alias com nome hh para executar comando history
+                                                                
+alias trc=tracerout - Cria um alias com nome hh para executar comando tracertroute                                                               
+
+ls -a - Exibe arquivos e pastas e arquivos ocultos.
+
+ls -F - Exibe / em cada diretorio
+                                                                
+cmp - Exibe comparacao entre dois arquivo se exite algum vazio      
+                                                                
+diff - Exibe o comparacao entre dois arquivo e sinaliza..
+
+sort -n - Exibe o conteudo da saida do arquivo em ordem numerica
+                                                                
+last reboot - Exibe a informação sobre a reinicialização do sistema                                                                
+                                                                
+route -n - Exibe todas as tabelas de roteamento do sistema.
+                                                                
+time tracertoute www.google.com - Exibe o calculo em tempo real da execução do processo.
+
+uptime -  Exibe o tempo que o sistema está em execução.
+                                                                
+cowsay - Exibe uma vaquiha que fala. 
+
+xcowsay - Exibie vaquinha em 3D
+
+cmatrix - Exibe na console o efeito matrix na console.                                                                
+                                                                
+initi 0 - Desliga o computador imediatamente.
+
+telinit 0 - Desliga o computador imediatamente.
+                                                                
+halt - Exibe autenticação para depois desligar!
+
+seq - Imprime uma sequencia de numeros exemplo seq 1 10.
+                                                                
+                                                                
+                                                                
+                                                                
                                                                 
                                                                 
                                                                 
