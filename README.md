@@ -167,17 +167,30 @@ alvesnet  alvesnet   tty7     3:37  Apr 27 08:37 (:0)
 # Comandos
                                                                 
 ifconfig - Exibe informações sobre a interface de rede e IP
+                                                                
 hostname -  Exibe informações sobre o host.
+                                                                
 hostname -i -  Exibe o numero do endereço loopback do host
+                                                                
 hostname -I -  Exibe o endereço ip da rede
+                                                                
 dig host - Exibe informaçoes sobre o DNS de um host
+                                                                
 dig host +short - Exibe o numero IP de um host
+                                                                
 w - Exibe informações detalhadas sobre o usuario do computador na rede
+                                                                
 who - Exibe informações curtas sobre o usuario.
+                                                                
 whoami - Exibe informação da conta do usuarios.
+                                                                
 tracertroute - Exibe informações obre a rota da sua rede até o host de destino.
+                                                                
 ping - Teste um hosts se esta ativo
+                                                                
 finger - Exibe informações detalhadas sobre um determinado usuario.
+                                                                
+                                                                
                                                                 
                                                                 
                                                                 
