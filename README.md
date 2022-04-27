@@ -329,6 +329,71 @@ sudo yum update postgresql
 # Remove de pacotes yum
                                                                 
 sudo yum remove postgresql                                                                    
+
+# Controle de Usuarios e (Des) Compactação de Arquivos
+
+# Criar usuario:
+                                                                
+sudo adduser 'nome do usuario'                                                                
+
+# Trocar de usuario:
+
+su 'nome do usuario'
+
+# Alterar a senha do usuario:
+                                                                
+sudo passwd 'nome do usuario'
+                                                                
+# Exibir informações de Login dos usuarios
+
+lastlog - Exibe historicio de login dos usuarios     
+                                                                
+last - Exibir historico uma entrada e saida do usaurio no sistema
+
+id - Exibe todos os identificadores do usuario
+                                                                
+cat /etc/passwd - Exibe todos os usuarios
+                                                                
+userdel -r 'nomdousuario' - Remover um usaurio e a pasta Pessoal do mesmo.
+
+# Controle dos Grupos
+
+cat /etc/group - Exibir grupo dentro do sistemas                                                                
+
+groups - Exibir todos os grupos de um usuario
+
+sudo addgroup 'nomedogrupo' - Cria um Grupo
+
+adduser usuario grupo - Adiciona um usuario ao Grupo
+
+adduser usuario grupo - Adiciona um usuario a um grupo
+
+gpasswd -a usuario grupo - Adiciona um usuario a um grupo
+
+gpasswd -d usuário grupo - Remover um usuario de um grupo
+
+groupdel grupo - Remover um grupo
+
+# Permissões
+
+Permissões em arquivos e diretorios servem para restringir acesso como: leitura, escrita e execução onde;
+
+r - read (leitura)
+
+w - write (escrita)
+
+x - execution (execução)
+                                                                
+
+
+
+
+                                                                
+
+
+
+                                                           
+                  
                                                                 
                                                                 
                                                                 
