@@ -399,18 +399,56 @@ A máscara octal é composta po números sob a base 8 ou seja de 0 a 7 onde:
 - O Terceiro digito representa outros (o)                                                                
                                                                 
 User
+
 r,w,x
+
 4,2,1
 
 Group
+
 r,w,x
+
 4,2,1
 
 Other
-r,w,x
-4,2,1                                                                
-                                                                
 
+r,w,x
+
+4,2,1
+
+Exemplo Cenario: 
+
+r,w,x
+
+4,2,1
+
+Group
+
+r,w,x
+
+4,2,0
+
+Other
+
+r,w,x
+
+4,2,0  
+
+OBS: A permissão acima resultou numero 100.                                                              
+                                                             
+Exemplo Cenario Commando:
+
+$ls -lh teste.txt
+
+-rw-rw-r-- 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
+
+Apos alterar permissão:
+
+$ chmod 100 teste.txt 
+
+$ ls -lh teste.txt
+
+---x------ 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
 
 
                                                                 
