@@ -237,6 +237,21 @@ telinit 0 - Desliga o computador imediatamente.
 halt - Exibe autenticação para depois desligar!
 
 seq - Imprime uma sequencia de numeros exemplo seq 1 10.
+
+whereis - Exibe o caminho do programa e manual.
+
+which - Exibe o caminho do arquivo.
+                                                                
+logout - Finaliza uma seção.
+
+# Maquinas Virtual que pode ser acessado pelo Navegador.
+                                                                
+httos://bellard.org/jslinux       
+                                                                
+                                                                
+                                                                
+
+                                                                
                                                                 
                                                                 
                                                                 
