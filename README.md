@@ -374,7 +374,7 @@ gpasswd -d usuário grupo - Remover um usuario de um grupo
 
 groupdel grupo - Remover um grupo
 
-# Permissões
+# Controle de Permissões
 
 Permissões em arquivos e diretorios servem para restringir acesso como: leitura, escrita e execução onde;
 
@@ -383,6 +383,36 @@ r - read (leitura)
 w - write (escrita)
 
 x - execution (execução)
+                                                                
+ls -lh - Verifica Permissões em um diretorio
+
+chmod - Muda a permissão de um arquivo ou diretorio.
+
+Ex: Modo Octal
+                                                                
+A máscara octal é composta po números sob a base 8 ou seja de 0 a 7 onde:
+
+- O primeiro dígito representa o dono do ficheiro/diretorio(u)
+
+- O segundo digito representa o grupo(g)
+
+- O Terceiro digito representa outros (o)                                                                
+                                                                
+User
+r,w,x
+4,2,1
+
+Group
+r,w,x
+4,2,1
+
+Other
+r,w,x
+4,2,1                                                                
+                                                                
+
+
+
                                                                 
 
 
