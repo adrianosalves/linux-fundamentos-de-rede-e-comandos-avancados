@@ -246,8 +246,55 @@ logout - Finaliza uma seção.
 
 # Maquinas Virtual que pode ser acessado pelo Navegador.
                                                                 
-httos://bellard.org/jslinux       
+httos://bellard.org/jslinux     
                                                                 
+# Linux Gerenciamento de Pacotes
+                                                                
+Instalação, Atualização e Remoção de Pacotes
+
+#. 1 Instalação:
+                                                                
+apt - É mais conhecido 
+
+Exemplo de como instalar um pacote:                                                                
+                                                                
+sudo apt install nmap                                           
+
+#.2 Atualização
+
+sudo apt upgrade nmap
+                                                                
+#. 3 Remoção
+
+sudo apt remove nmap
+                                                                
+# Atualização de Sistema
+
+sudo apt update                                                                
+                                                                
+sudo apt upgrade
+                         
+ou
+                                                                
+sudo apt update && apt upgrade       
+
+# Sites de Pacotes
+
+pkgs.org
+                                                                
+rpm.pkgs.org
+                     
+# Instalação de pacotes dpkg:
+
+dpkg -i 'nome do pacote.deb'
+
+                                                                
+                                                                
+                                                                
+                                                                
+
+                                                                
+                                                                                                                                
                                                                 
                                                                 
 
