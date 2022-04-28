@@ -485,6 +485,77 @@ $ ls -lh teste.txt
                                                                 
 -rwxrwxrwx 1 alvesnet alvesnet 0 abr 27 20:28 teste.txt
 
+# Compactação, descompactação e Arquivamento 
+
+Compactadores são programas que diminuem o tamanho de um arquivo.
+
+Comandos gzip, zip e bzip2
+
+gzip - Compactador muito usado, possui uma taxa excelente de compactação.
+
+Uso: 
+                                                                
+gzip arquivo.txt - Para compactar um arquivo
+
+gunzip arquivo.txt.gz - Para descompactar um arquivo
+
+gzip -9 arquivo.txt- Usar a maior taxa de compactação
+
+                                                                
+zip - Compactador muito usado no Windows.
+
+zip arquivo.zip arquivo.txt - Quando compactar arquivo com zip.
+
+zip arquivo.zip arquivo.txt vazio.txt outro.txt - Quando quiser compactar varios arquivo com zip.
+
+unzip arquivo.zip - Para descompactar um arquivo
+                                                                
+
+bzip2 - Compactador mais atual que gzip e zip.
+
+bzip2 arquivo.txt - Para compactar um arquivo
+
+bzip2 -d arquivo.txt.bzip2 - Para descompactar um arquivo
+
+rar -> necessita ser instalado na primeira utilização
+
+sudo apt install rar
+
+rar a arquivo.rar arquivo.txt - Compactar arquivo 
+
+rar x arquivo.rar - Descompactar arquivo
+
+# Arquivadores
+
+tar - é um arquivador muito utilizad no Linux até mesmo em arquivo de sistemas.
+
+tar -cf arquivos.tar arquivo1.txt arquivo2.txt - Arquivar um arquivo varios...
+
+gzip arquivos.tar - Compactar arquivo tar.
+        
+tar -xvf arquivos.tar.gz - Descompactar arquivo tar.gz
+
+tar -xvf arquivos.tar.gz -C /Diretorio - Descompactar arquivo tar.gz para outro diretorio
+
+gzip arquivos.tar - 
+
+
+
+
+        
+
+
+
+                                                                
+                                                                
+                                                                
+                                                                
+
+comandos rar e tar                                                                
+
+
+
+
 
 
 
